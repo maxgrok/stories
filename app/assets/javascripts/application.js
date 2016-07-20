@@ -15,15 +15,16 @@
 //= require turbolinks
 //= require_tree .
 
-$('#button').toggle( 
+$('#button').click( 
     function() {
-        $('#right').animate({ left: 250 }, 'slow', function() {
-            $('#button').html('Close');
-        });
-    }, 
-    function() {
-        $('#right').animate({ left: 0 }, 'slow', function() {
+        $('#menu').animate({ left: 0 }, 'slow', function() {
+          if($('#button').html() == 'Close'){
             $('#button').html('Menu');
+          }else{
+            $('#button').html('Close');
+          }
+            
         });
     }
 );
+
