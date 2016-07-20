@@ -1,28 +1,10 @@
-	<div id="menu">
-    <!-- <img src="https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-white.svg" /> -->
-   <ul>
-     <li><a href="#">Home</a></li>
-     <li><a href="#">About</a></li>
-     <li><a href="#">Contact</a></li>
-    </ul>
-    <!-- <img src="https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/close-white.svg" /> -->
-</div>
-	<div id="right">
-        <div id="menubar">
-            <div id="button">
-                Menu
-            </div>
-        </div>
-    <p>
-      This is a paragraph. See if it makes the menu work!
-    </p>
-  </div>
+
 <div class="home-main">
   <div class="col-md-6 col-md-offset-6">
     <h2>
     Discover and create Stories.
   </h2>
-  <a href="#" class="btn btn-primary">Learn more</a>
+  <%= link_to "Learn more", '/about' %>
   </div>
 </div>
 <div class="home-supporting">
@@ -37,5 +19,5 @@
 	<h2>
     Discover your story
   </h2>
-  <a href="#" class="btn btn-primary">Learn more</a>
+   <%= link_to "Learn more", '/about' %>
 </div>

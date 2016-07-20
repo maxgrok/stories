@@ -9,7 +9,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  	<div id="menu">
+    <!-- <img src="https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/menu-white.svg" /> -->
+   <ul>
+     <li><%= link_to "Home", '/pages' %></li>
+     <li><%= link_to "About", '/about' %></li>
+     <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- <img src="https://s3.amazonaws.com/codecademy-content/projects/z2d/stories/close-white.svg" /> -->
+</div>
+	<div id="right">
+        <div id="menubar">
+            <div id="button">
+                Menu
+            </div>
+        </div>
+  </div>
 <%= yield %>
+<footer>&copy; Stories 2016</footer>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>

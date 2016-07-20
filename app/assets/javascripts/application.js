@@ -14,17 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$('#button').click( 
+$('#button').toggle( 
     function() {
-        $('#menu').animate({ left: 0 }, 'slow', function() {
-          if($('#button').html() == 'Close'){
-            $('#button').html('Menu');
-          }else{
+        $('#right').animate({ left: 250 }, 'slow', function() {
             $('#button').html('Close');
-          }
-            
+        });
+    }, 
+    function() {
+        $('#right').animate({ left: 0 }, 'slow', function() {
+            $('#button').html('Menu');
         });
     }
 );
-
