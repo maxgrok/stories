@@ -1,0 +1,13 @@
+<h2>
+  Stories Sign Up
+</h2>
+
+<%= form_for(@new) do |t| %>
+<div class = "field">
+  <%= t.text_field :firstname, :placeholder => :First_Name %>
+  <%= t.text_field :email, :placeholder => :Email %>
+</div>
+<div class = "actions">
+  <%= t.submit "Sign Up" %>
+</div>
+<% end %>

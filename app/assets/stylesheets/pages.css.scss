@@ -33,11 +33,12 @@
 
 #right {
     width:100%;
-    background-color: #fff;
+    background:url('http://imgur.com/h8y3RqS.jpg') no-repeat center center fixed;
+  background-size: cover;
     z-index: 5;
     position: fixed;
     left: 0px;
-    height: 25%;
+    height: 100%;
     -webkit-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
         moz-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
           o-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
