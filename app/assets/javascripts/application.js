@@ -17,12 +17,12 @@
 $('#button').click(function() { 
   var text = $(this).html();
   if (text === 'Menu') {
-    $('#right').animate({ left: 250 }, 'slow', function() {
+    $('#right').animate({ left: 250 }, 'fast', function() {
       $('#button').html('Close');
     });
   }
   else {
-    $('#right').animate({ left: 0 }, 'slow', function() {
+    $('#right').animate({ left: 0 }, 'fast', function() {
       $('#button').html('Menu');
     });
   }
