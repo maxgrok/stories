@@ -1,13 +1,21 @@
+<div class="signups">
 <h2>
   Stories Sign Up
 </h2>
 
 <%= form_for(@new) do |t| %>
-<div class = "field">
-  <%= t.text_field :firstname, :placeholder => :First_Name %>
-  <%= t.text_field :email, :placeholder => :Email %>
+<div class = "field form-group">
+  <%= t.text_field :firstname, :placeholder => :First_Name, :class =>"exampleTextArea" %>
+  <%= t.text_field :email, :placeholder => :Email,:class =>"exampleInputEmail1" %>
 </div>
 <div class = "actions">
-  <%= t.submit "Sign Up" %>
+  <%= t.submit "Sign Up", :class => "btn btn-success" %>
 </div>
 <% end %>
+</div>
+
+<fieldset class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    <small class="text-muted">We'll never share your email with anyone else.</small>
+  </fieldset>

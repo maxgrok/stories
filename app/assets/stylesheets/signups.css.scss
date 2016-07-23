@@ -1,7 +1,10 @@
 // Place all the styles related to the Signups controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-*{
+.signups{
   background: url('http://imgur.com/sf03EtK.jpg') no-repeat center center fixed;
   background-size: cover;
+  height:700px;
+  width:100%;
+  padding-top:5%;
 }

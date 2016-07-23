@@ -3,57 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* This is quoted CSS styling for the Js Menu from the JSFiddle example */ 
-* {
-    padding: 0px;
-    margin: 0px;
+.section{
+  background:url('http://imgur.com/eTAtSsO.jpg') no-repeat center center fixed;
+  background-size:cover;
+  height:700px;
+  width:100%;
+  padding-top:5%;
 }
-
-#menubar {
-    width:100%;
-    background-color:#444;
-    color: #fff;
-    padding: 10px;
+.home-main{
+  height:400px;
 }
-
-#button {
-  cursor:pointer;
-  display:inline-block;
+.home-supporting{
+  height:400px;
 }
-
-#menu, #right {
-    display:inline;
-}
-
-#menu li a {
-    padding: 10px;
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-
-#right {
-    width:100%;
-    z-index: 5;
-    position: fixed;
-    left: 0px;
-    height: 100%;
-    -webkit-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
-        moz-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
-          o-box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
-            box-shadow:  -5px 0px 4px 0px rgba(0, 0, 0, 0.2);
-}
-
-#right p {
-    padding: 10px;
-}
-
-#menu {
-    float:left;
-    width: 350px;
-    height: 10%;
-}
-
-#menu li {
-    background-color:#444;
-    border-bottom: 1px solid #888;
+.discover{
+  height:400px;
 }
