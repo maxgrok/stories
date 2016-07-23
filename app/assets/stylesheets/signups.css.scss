@@ -4,7 +4,21 @@
 .signups{
   background: url('http://imgur.com/sf03EtK.jpg') no-repeat center center fixed;
   background-size: cover;
-  height:100%;
+  height:700px;
   width:100%;
   padding-top:5%;
+}
+.thanks{
+  background:url("http://imgur.com/y5R1ytG.jpg") no-repeat center center fixed;
+  height:700px;
+  width:100%;
+  padding-top:5%;
+  font-weight:bold;
+}
+h2{
+  font-weight:light;
+}
+form{
+  text-align:center;
+  margin:0 auto;
 }
