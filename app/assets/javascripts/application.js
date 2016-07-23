@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$('#button').click(function() { 
+$('#button').toggle(function() { 
   var text = $(this).html();
   if (text === 'Menu') {
     $('#right').animate({ left: 250 }, 'fast', function() {
