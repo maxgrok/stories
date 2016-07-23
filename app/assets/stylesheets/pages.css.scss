@@ -4,18 +4,24 @@
 
 /* This is quoted CSS styling for the Js Menu from the JSFiddle example */ 
 .section{
-  background:url('http://imgur.com/eTAtSsO.jpg') no-repeat center center fixed;
+}
+.home-main{
+  height:700px;
+   background:url('http://imgur.com/eTAtSsO.jpg') no-repeat center center fixed;
   background-size:cover;
   height:700px;
   width:100%;
   padding-top:5%;
 }
-.home-main{
-  height:400px;
-}
 .home-supporting{
-  height:400px;
+  height:700px;
+   background:url('http://imgur.com/6hh0Ega.jpg') no-repeat center center fixed;
+  background-size:cover;
+ 	width:100%;
 }
 .discover{
-  height:400px;
+   background:url('http://imgur.com/y5R1ytG.jpg') no-repeat center center fixed;
+  background-size:cover;
+  height:700px;
+  width:100%;
 }
